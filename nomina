@@ -1,0 +1,84 @@
+#include<stdio.h>   //directivas o diredtrices//
+#include<stdlib.h>    //carga informacion de bibliotecas//
+   
+    
+    int main(){   //inicio del metodo//
+	 	
+    printf(" \t Sistema de nomina 25/05/2020 ");
+    printf("\n Menu \n ");            //imprime cadena de texto en pantalla 
+    printf("1= salarios\n");     
+    printf("2= bonificaciones\n");
+    printf("3= deducciones \n");
+    printf("4 =impuestos \n");
+    printf("5 =retenciones \n");
+    printf("6 = indemnizaciones \n");
+    printf("7 =anticipos  \n");
+    printf("8 =operaciones basicas \n");
+    printf("9 =imss \n");
+    printf("10 =salir\n");
+    int opcion;
+    
+    scanf("%f", & opcion);
+    
+    switch(opcion){
+    int op,salario,deduc,impuesto,boni;           //tipo de dato//
+    float a,b;
+    
+  case 1:
+	    printf("1=salarios\n");
+		printf("ingrese el salario");     //imprime cadena de texto en pantalla 
+		scanf("%d", & salario);           //donde se almacena 
+	    break;
+	case 2:   
+	    printf("2=bonificaciones\n");
+		printf("ingrese la bonificacion");   //imprime cadena de texto en pantalla 
+		scanf("%d", & boni);
+	    break;
+	case 3: 	    
+	    printf("3=deducciones \n");
+		printf("ingrese la deduccion");    //imprime cadena de texto en pantalla 
+		scanf("%d", & deduc);
+	    break;
+	case 4:
+	    printf("4=impuestos\n");
+		printf("ingrese el impuesto");   //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	case 5:
+	    printf("5=retenciones\n");
+		printf("ingrese el impuesto");   //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	case 6:
+	    printf("6=indenizaciones\n");
+		printf("ingrese el impuesto");     //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	case 7:
+	    printf("7=anticipos\n");
+		printf("ingrese el impuesto");     //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	case 8:
+	    printf("8=operaciones basicas\n");
+		printf("ingrese el impuesto");          //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	case 9:
+	    printf("9=imss\n");          //imprime cadena de texto en pantalla 
+		printf("ingrese el impuesto");
+		scanf("%d", &impuesto);
+	    break;
+	case 10:
+	    printf("10=salir\n");
+		printf("ingrese el impuesto");      //imprime cadena de texto en pantalla 
+		scanf("%d", &impuesto);
+	    break;
+	    default: printf("la opcion no es correcta");
+	    break;
+    }
+
+return 0;  //regresa un valor//
+} //fin del programa//
+
+
